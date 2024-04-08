@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chromely.Tests", "Chromely.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chromely.Integration.TestApp", "Chromely.Integration.TestApp\Chromely.Integration.TestApp.csproj", "{BB5B56BF-FFDC-4A0C-A7A4-91F737509D4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chromely.Integration.TestApp", "..\src_8.0\Chromely.Integration.TestApp\Chromely.Integration.TestApp.csproj", "{12A10E37-33E7-488A-B04B-7C4E9CC7644E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,22 @@ Global
 		{BB5B56BF-FFDC-4A0C-A7A4-91F737509D4F}.ReleaseLinux|Any CPU.ActiveCfg = ReleaseLinux|x64
 		{BB5B56BF-FFDC-4A0C-A7A4-91F737509D4F}.ReleaseLinux|x64.ActiveCfg = ReleaseLinux|x64
 		{BB5B56BF-FFDC-4A0C-A7A4-91F737509D4F}.ReleaseLinux|x64.Build.0 = ReleaseLinux|x64
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Debug|x64.Build.0 = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.DebugLinux|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.DebugLinux|Any CPU.Build.0 = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.DebugLinux|x64.ActiveCfg = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.DebugLinux|x64.Build.0 = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Release|x64.ActiveCfg = Release|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.Release|x64.Build.0 = Release|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.ReleaseLinux|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.ReleaseLinux|Any CPU.Build.0 = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.ReleaseLinux|x64.ActiveCfg = Debug|Any CPU
+		{12A10E37-33E7-488A-B04B-7C4E9CC7644E}.ReleaseLinux|x64.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

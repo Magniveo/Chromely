@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <!-- <TargetFramework>netcoreapp3.1</TargetFramework>  -->
     <IsPackable>false</IsPackable>
     <Platforms>AnyCPU;x86</Platforms>
@@ -16,11 +16,18 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Chromely.Core\Chromely.Core.csproj" />
-    <ProjectReference Include="..\Chromely\Chromely.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-     <Folder Include="Chromely\" />
+    <Compile Remove="Chromely\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Chromely\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Chromely\**" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,7 @@
         <RuntimeIdentifiers>win7-x86;win7-x64;linux-x64</RuntimeIdentifiers>
         <Configurations>Debug;Release;ReleaseLinux;DebugLinux</Configurations>
         <Platforms>x64</Platforms>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
        <!-- <TargetFramework>netcoreapp3.1</TargetFramework>  -->
     </PropertyGroup>
 
@@ -42,7 +42,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Chromely.Core\Chromely.Core.csproj" />
-      <ProjectReference Include="..\Chromely\Chromely.csproj" />
     </ItemGroup>
 
 </Project>
