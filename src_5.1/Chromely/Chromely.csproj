@@ -68,7 +68,6 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.5" />
     <PackageReference Include="System.Text.Json" Version="4.7.2" />
-    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -90,7 +89,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CefGlue\Interop\Base\cef_string_t.disabled.cs" />
+  </ItemGroup>
 
+  <!-- Disabled Sources -->
+  <ItemGroup>
+    <None Include="CefGlue\Interop\Base\cef_string_t.disabled.cs" />
+  </ItemGroup>
+  
   <ItemGroup>
     <None Include="chromely.ico" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>

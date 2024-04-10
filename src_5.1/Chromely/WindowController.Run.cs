@@ -59,8 +59,8 @@ namespace Chromely
 
             var tempFiles = CefBinariesLoader.Load(_binariesDownloader, _config);
 
-            CefRuntime.EnableHighDpiSupport();
-
+            //CefRuntime.EnableHighDpiSupport();
+            
             _settings = new CefSettings
             {
                 MultiThreadedMessageLoop = (_config.Platform == ChromelyPlatform.Windows && !_config.WindowOptions.UseOnlyCefMessageLoop),
